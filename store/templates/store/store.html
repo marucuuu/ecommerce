@@ -1,0 +1,45 @@
+{% extends 'store/main.html' %}
+{% load static %}
+{% block content %}
+	<div class="row">
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/pomade.jpg' %}">
+			<div class="box-element product">
+				<h6><strong>Pomade Bubble Gum</strong></h6>
+				<hr>
+
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>PHP450</strong></h4>
+
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/hairD.jpg' %}">
+			<div class="box-element product">
+				<h6><strong>Dyson Supersonic™ hair dryer</strong></h6>
+				<hr>
+				
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>PHP2500</strong></h4>
+				
+			</div>
+		</div>
+
+		<div class="col-lg-4">
+			<img class="thumbnail" src="{% static 'images/manS.jpg' %}">
+			<div class="box-element product">
+				<h6><strong>Manscaped The Lawn Mower 5.0</strong></h6>
+				<hr>
+
+				<button  class="btn btn-outline-secondary add-btn">Add to Cart</button>
+				<a class="btn btn-outline-success" href="#">View</a>
+				<h4 style="display: inline-block; float: right"><strong>PHP5400</strong></h4>
+
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}
