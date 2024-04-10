@@ -9,4 +9,8 @@ class Order(models.Model):
     zipcode = models.CharField(max_length=20)
     country = models.CharField(max_length=100)
 
+<<<<<<< HEAD
 
+=======
+    # Add any other fields you might need
+>>>>>>> 601c6d75a269cb2bec6678887e99fec4e6f99c66
